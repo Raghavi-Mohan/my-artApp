@@ -1,6 +1,7 @@
 # MyArtApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+This app is created to show case my paintings and making videos of the same.
 
 ## Development server
 
@@ -22,6 +23,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+![image](https://github.com/user-attachments/assets/d8cbf6fe-412b-4c6b-b6aa-1b8e4b776d8c)
+![image](https://github.com/user-attachments/assets/1fae343f-bf0e-4993-9e9e-6aaf251750b8)
+![image](https://github.com/user-attachments/assets/ab042ac4-59c5-4c7a-a9c2-93e25f500c6c)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
