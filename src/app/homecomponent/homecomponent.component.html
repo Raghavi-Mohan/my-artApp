@@ -54,11 +54,26 @@
       font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
         "Segoe UI Symbol";
+        background: linear-gradient(to right, #f9611a, #f40b93, #8d029c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
     }
   
     p {
       margin: 0;
       color: var(--gray-700);
+      background: linear-gradient(to right, #f9611a, #f40b93, #8d029c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
+    }
+
+    a{
+        background: linear-gradient(to right, #f9611a, #f40b93, #8d029c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
     }
   
     main {
@@ -163,6 +178,7 @@
     .container {
     display: grid;
     bottom:100px;
+    width:100%;
     right:25px;
     align-items: center;
     justify-content: center;
@@ -199,26 +215,26 @@
       }
     }
   </style>
+  <body>
   <main class="main">
     <div class="content">
       <div class="left-side">
-        <router-outlet></router-outlet>
         <h1>Hello From, TextureAndTones</h1>
-        <p>Welcome to our vibrant corner where creativity and coding converge!Explore the captivating world of canvas texture paintings, where artistic expression meets innovative coding techniques.🎉</p>
+        <p>Welcome to our vibrant corner where creativity and coding converge!Explore the captivating world of canvas texture paintings, where artistic expression meets innovative coding techniques !!</p>
       </div>
       <div class="divider" role="separator" aria-label="Divider"></div>
       <div class="right-side">
         <div class="pill-group">
   <nav>
     <ul>
-      <li><a routerLink="/page1">Page 1</a></li>
-      <li><a routerLink="/page2">Page 2</a></li>
+      <li><a  routerLink="/page1">Explore painting Catalog</a></li>
+      <li><a routerLink="/page2">Explore making videos</a></li>
     </ul>
   </nav>
         </div>
         <div class="social-links">
           <a
-            href="https://github.com/angular/angular"
+            href="https://github.com/Raghavi-Mohan"
             aria-label="Github"
             target="_blank"
             rel="noopener"
@@ -237,7 +253,7 @@
             </svg>
           </a>
           <a
-            href="https://Instagram.com/angular"
+            href="https://Instagram.com/texturedcanvaspainting/profilecard/?igsh=M203MmpnNmRsZG91"
             aria-label="Instagram"
             target="_blank"
             rel="noopener"
@@ -256,7 +272,7 @@
             </svg>
           </a>
           <a
-            href="https://www.youtube.com/channel/UCbn1OgGei-DV7aSRo_HaAiw"
+            href="https://www.youtube.com/@raghavim9761"
             aria-label="Youtube"
             target="_blank"
             rel="noopener"
@@ -286,7 +302,7 @@
     </div>
     <div class="image-container">
       <br>
-      <img width=200 height="100" class="img-responsive" src="Capture.PNG" alt="Description">
+      <img width=280 height="200" class="img-responsive" src="brandImage.png" alt="Description">
     </div>
   </div>
   
@@ -297,7 +313,5 @@
   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
   <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-  
-  
-  <router-outlet />
+</body>
   

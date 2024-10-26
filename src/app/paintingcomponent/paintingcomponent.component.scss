@@ -9,11 +9,16 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    width: 150px; /* Adjust as needed */
+    width: 350px; /* Adjust as needed */
+    height: 180px;
   }
   
   img {
     max-width: 100%;
     border-radius: 5px;
   }
+
+  body{
+    background-image: linear-gradient(to right,#f8eddf,#ffcc99,#f5e65e,#b9f8b1,#c3f8f8);
+}
   

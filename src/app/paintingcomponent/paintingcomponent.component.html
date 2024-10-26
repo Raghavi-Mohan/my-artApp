@@ -6,7 +6,7 @@
       display: grid;
       align-items: center;
       float: center;
-      margin-top: 300px;
+      margin-top: 100px;
     }
     a {
       max-width: 5.2rem;
@@ -15,16 +15,29 @@
       display: grid;
       justify-content: center;
       float: center;
+      background: linear-gradient(to right, #f9611a, #f40b93, #8d029c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
+    }
+    p{
+        background: linear-gradient(to right, #f9611a, #f40b93, #8d029c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
     }
 </style>
-
+<body>
 <div class="gallery">
     <div *ngFor="let video of videos" class="video-item">
-      <img [src]="video.url" [alt]="video.name" />
+      <video controls>
+        <source [src]="video.url" type="video/mp4">
+      </video>
       <p>{{ video.name }}</p>
     </div>
   </div>
   <div class="home">
     <a routerLink="/">Home</a>
-    <a routerLink="/page1">Page1</a>
+    <a routerLink="/page1">Explore painting Catalog</a>
   </div>
+</body>
