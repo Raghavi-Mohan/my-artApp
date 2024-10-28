@@ -25,6 +25,10 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       float: center;
       margin-top: 50px;
       margin-bottom: 50px;
+      border-radius: 5px;
+      border-style:double;
+      border-color: #E7CAAB;
+      border-width: 5px;
     }
     p[_ngcontent-%COMP%]{
     font-size: 18px; 
