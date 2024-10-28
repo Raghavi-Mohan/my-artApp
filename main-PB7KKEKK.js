@@ -268,7 +268,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     align-items: center;
     justify-content: center;
     float: center; 
-    margin-top: 50px;
+    margin-top: 60px;
     height: 10vh; 
   }
   
