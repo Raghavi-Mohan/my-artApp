@@ -6,11 +6,13 @@
   
   .video-item {
     text-align: center;
-    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     width: 350px; /* Adjust as needed */
     height: 180px;
+    border-style:double;
+    border-color: #E7CAAB;
+    border-width: 10px;
   }
   
   img {
@@ -19,6 +21,6 @@
   }
 
   body{
-    background-image: linear-gradient(to right,#f8eddf,#ffcc99,#f5e65e,#b9f8b1,#c3f8f8);
-}
+    background-image: linear-gradient(to right,#e9e8e6,#E7CAAB);
+  }
   

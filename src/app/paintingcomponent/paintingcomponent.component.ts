@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class PaintingcomponentComponent {
   videos = [
-    { name: 'Gopuram', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' },
-    { name: 'babyKrishna', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' },
-    { name: 'homeSweetHome', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' },
-    { name: 'Budha', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' },
-    { name: 'gitlWithGuitar', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' }
+    { name: 'Gopuram', url: 'https://www.youtube.com/embed/1Kx1WZsXcVA' },
+    { name: 'babyKrishna', url: 'https://www.youtube.com/embed/mBm_CE_V48w' },
+    { name: 'homeSweetHome', url: 'https://www.youtube.com/embed/EFYjA9snZBI' },
+    { name: 'Budha', url: 'https://www.youtube.com/embed/_cxpbcyLQ-I' },
+   // { name: 'gitlWithGuitar', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' }
   ];
 }

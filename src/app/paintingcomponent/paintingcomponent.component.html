@@ -7,6 +7,7 @@
       align-items: center;
       float: center;
       margin-top: 100px;
+      background-image: linear-gradient(to left,#e6d9ca,#E7CAAB);
     }
     a {
       max-width: 5.2rem;
@@ -30,9 +31,7 @@
 <body>
 <div class="gallery">
     <div *ngFor="let video of videos" class="video-item">
-      <video controls>
-        <source [src]="video.url" type="video/mp4">
-      </video>
+      <iframe width="360" height="115" [src]="video.url | safeUrl" frameborder="0" allowfullscreen></iframe>
       <p>{{ video.name }}</p>
     </div>
   </div>

@@ -92,6 +92,11 @@
       max-width: 400px;
       align-items: center;
       float: center;
+      border-radius: 5px;
+      border-style:double;
+      border-color: #E7CAAB;
+      border-width: 10px;
+
     }
   
     .content {
@@ -110,10 +115,10 @@
     }
   
     .divider {
-      width: 1px;
+      width: 3px;
       background: var(--red-to-pink-to-purple-vertical-gradient);
       margin-inline: 0.5rem;
-      height: 150px;
+      height: 180px;
     }
   
     .pill-group {
@@ -122,6 +127,9 @@
       align-items: start;
       flex-wrap: wrap;
       gap: 1.25rem;
+    }
+    .left-side{
+      background-image: linear-gradient(to left,#e9e0d7,#E7CAAB);
     }
   
     .pill {
@@ -184,7 +192,9 @@
     justify-content: center;
     float: center; /* Center horizontally and vertically */
     height: 10vh; /* Make container take full viewport height */
+    background-image: linear-gradient(to left,#e6d9ca,#E7CAAB);
   }
+
   
   .image-container {
     display: grid;
@@ -227,7 +237,7 @@
         <div class="pill-group">
   <nav>
     <ul>
-      <li><a  routerLink="/page1">Explore painting Catalog</a></li>
+      <li><a  routerLink="/page1">Explore Collection</a></li>
       <li><a routerLink="/page2">Explore making videos</a></li>
     </ul>
   </nav>
