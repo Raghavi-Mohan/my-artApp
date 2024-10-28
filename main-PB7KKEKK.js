@@ -260,7 +260,6 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     background-image: linear-gradient(to left,#e6d9ca,#E7CAAB);
   }
 
-  
   .image-container[_ngcontent-%COMP%] {
     display: grid;
     bottom:50px;
@@ -269,9 +268,8 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     align-items: center;
     justify-content: center;
     float: center; 
-
+    margin-top: 50px;
     height: 10vh; 
-
   }
   
     .social-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover   svg[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {
