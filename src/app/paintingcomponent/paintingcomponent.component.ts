@@ -11,6 +11,6 @@ export class PaintingcomponentComponent {
     { name: 'babyKrishna', url: 'https://www.youtube.com/embed/mBm_CE_V48w' },
     { name: 'homeSweetHome', url: 'https://www.youtube.com/embed/EFYjA9snZBI' },
     { name: 'Budha', url: 'https://www.youtube.com/embed/_cxpbcyLQ-I' },
-   // { name: 'gitlWithGuitar', url: 'https://www.instagram.com/reel/C-4IOeYtu5h/?igsh=MXNlMmJoY253NWkyZA==' }
+    { name: 'peacockFeather', url: 'https://www.youtube.com/embed/5O4B_vCRqtU' }
   ];
 }
