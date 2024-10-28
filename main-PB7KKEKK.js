@@ -25,7 +25,6 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       float: center;
       margin-top: 50px;
       margin-bottom: 50px;
-      background-image: linear-gradient(to left,#e4dbd0,#E7CAAB);
     }
     p[_ngcontent-%COMP%]{
     font-size: 18px; 
@@ -194,9 +193,6 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       align-items: start;
       flex-wrap: wrap;
       gap: 1.25rem;
-    }
-    .left-side[_ngcontent-%COMP%]{
-      background-image: linear-gradient(to left,#e9e0d7,#E7CAAB);
     }
   
     .pill[_ngcontent-%COMP%] {
