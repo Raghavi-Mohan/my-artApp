@@ -25,6 +25,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       float: center;
       margin-top: 50px;
       margin-bottom: 50px;
+      background-image: linear-gradient(to left,#e4dbd0,#E7CAAB);
     }
     p[_ngcontent-%COMP%]{
     font-size: 18px; 
@@ -194,6 +195,9 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       flex-wrap: wrap;
       gap: 1.25rem;
     }
+    .left-side[_ngcontent-%COMP%]{
+      background-image: linear-gradient(to left,#e9e0d7,#E7CAAB);
+    }
   
     .pill[_ngcontent-%COMP%] {
       display: flex;
@@ -260,6 +264,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     background-image: linear-gradient(to left,#e6d9ca,#E7CAAB);
   }
 
+  
   .image-container[_ngcontent-%COMP%] {
     display: grid;
     bottom:50px;
@@ -268,8 +273,9 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     align-items: center;
     justify-content: center;
     float: center; 
-    margin-top: 60px;
+
     height: 10vh; 
+
   }
   
     .social-links[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover   svg[_ngcontent-%COMP%]   path[_ngcontent-%COMP%] {
