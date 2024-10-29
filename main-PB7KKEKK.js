@@ -104,7 +104,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
         var(--electric-violet) 100%
       );
     .right-side[_ngcontent-ng-c3162106328]{
-     margin-left: -40px;
+     margin-left: 40px;
     }
   
       --pill-accent: var(--bright-blue);
