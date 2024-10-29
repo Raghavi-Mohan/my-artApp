@@ -180,7 +180,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       border-width: 10px;
       max-width: 320px;
       height: 250px;
-      margin-left: -85px;
+      margin-left: -5px;
       justify-content: center;
       display: grid;
       align-items: center;
@@ -292,7 +292,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       fill: var(--gray-900);
     }
   
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 320px) {
       .content[_ngcontent-%COMP%] {
         flex-direction: column;
         width: max-content;
