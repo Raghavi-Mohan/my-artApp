@@ -94,7 +94,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       );
     .centered-div{
     width: 300px;
-    margin-left: -80px;
+    margin-left: 10px;
   }
   
       --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
@@ -169,7 +169,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       border-style:double;
       border-color: #E7CAAB;
       border-width: 10px;
-      margin-left: -80px;
+      margin-left: 0px;
     }
   
     .content[_ngcontent-%COMP%] {
