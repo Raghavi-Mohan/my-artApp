@@ -270,9 +270,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     align-items: center;
     justify-content: center;
     float: center; 
-
-    height: 10vh; 
-
+    height: 150px;
     background-image: linear-gradient(to left,#e6d9ca,#E7CAAB);
   }
 
