@@ -265,7 +265,12 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     .container[_ngcontent-%COMP%] {
     display: grid;
     bottom:100px;
-    width:100%;
+    width: 80%;
+    margin-left: 15%;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #E7CAAB;
+    border-width: 10px;
     right:25px;
     align-items: center;
     justify-content: center;
