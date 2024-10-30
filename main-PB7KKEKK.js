@@ -267,7 +267,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
     display: grid;
     bottom:100px;
     width: 80%;
-    margin-left: 15%;
+    margin-left: 10%;
     border-radius: 5px;
     border-style: double;
     border-color: #E7CAAB;
