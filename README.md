@@ -27,8 +27,9 @@ Screenshot of UI is given below.
 Browser view: 
 
 <img width="1074" alt="Screenshot 2024-10-30 at 9 46 33 AM" src="https://github.com/user-attachments/assets/4065825f-a89e-417d-a390-3644bfcf40b0">
-![image](https://github.com/user-attachments/assets/775728c4-7d2e-4623-918a-6915e26d9542)
-![image](https://github.com/user-attachments/assets/a3ce5064-ff34-472a-9e9f-bd46e2b237c5)
+![image](https://github.com/user-attachments/assets/fa6d24f2-1ff1-410b-ae66-892e65a5d059)
+![image](https://github.com/user-attachments/assets/8ee614db-abb3-4608-b7be-c9ed31b38de1)
+
 
 
 Mobile view :
