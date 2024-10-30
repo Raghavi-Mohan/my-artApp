@@ -94,7 +94,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       );
     .centered-div{
     width: 300px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   
       --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
