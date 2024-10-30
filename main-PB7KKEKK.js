@@ -122,6 +122,7 @@ ${t.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       color: var(--gray-900);
       font-weight: 500;
       line-height: 100%;
+      margin-left:20px;
       letter-spacing: -0.125rem;
       margin: 0;
       font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
